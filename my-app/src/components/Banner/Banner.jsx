@@ -30,7 +30,7 @@ const Banner = ({ data }) => {
               <p className='text-sm racking-wide leading-5'>{data.title4}</p>
               <div>
                 <button style={{color:data.bgColor}}
-               className='bg-white py-2 px-4
+               className='bg-red-900 py-2 px-4
                 rounded-full'>Shop Now</button>
               </div>
             </div>
