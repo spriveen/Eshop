@@ -33,7 +33,7 @@ const BannerData2 = {
 title2: 'Smart Solo Bass',
     title3: 'Winter Sale',
     title4: 'Exclusive deals available now!',
-   bgColor: 'bg-green-500'
+   bgColor: '#6bdb89'
 };
 
 // Main App Component
