@@ -10,6 +10,7 @@ import Products from './components/Products/Products';
 // Ensure the correct path for image imports
 import headphone from './assets/hero/headphone.png';
 import smartwatch2 from './assets/category/smartwatch2-removebg-preview.png';
+import Blogs from './components/Blogs/Blogs';
 
 // Banner data objects
 const BannerData = {
@@ -48,6 +49,7 @@ const App = () => {
       <Banner data={BannerData} />
       <Products />
       <Banner data={BannerData2} />
+      <Blogs />
     </div>
   );
 };
