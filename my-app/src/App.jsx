@@ -12,6 +12,7 @@ import headphone from './assets/hero/headphone.png';
 import smartwatch2 from './assets/category/smartwatch2-removebg-preview.png';
 import Blogs from './components/Blogs/Blogs';
 import Partners from './components/Partners/Partners';
+import Footer from './components/Footer/Footer';
 
 // Banner data objects
 const BannerData = {
@@ -52,6 +53,7 @@ const App = () => {
       <Banner data={BannerData2} />
       <Blogs />
       <Partners />
+      <Footer />
     </div>
   );
 };
