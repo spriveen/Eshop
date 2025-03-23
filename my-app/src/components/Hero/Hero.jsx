@@ -32,7 +32,7 @@ const HeroData = [
    },
 ];
 
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
     const settings = {
         dots: true,
         infinite: true,
@@ -69,7 +69,9 @@ const Hero = () => {
                         dark:text-white/5 sm:text-[80px] md:text-[100px]
                         xl:text-[150px] font-bold'>{data.title2}</h1>
                         <div >
-                          <Button text="Shop By Category" bgColor="bg-red-400" textColor="text-white"/> 
+                          <Button text="Shop By Category" bgColor="bg-red-400" textColor="text-white"
+                           handler={handleOrderPopup}
+                          /> 
                         </div>
                      </div>
                     {/*Img content section  */}

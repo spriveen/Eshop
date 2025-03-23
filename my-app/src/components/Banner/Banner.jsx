@@ -20,7 +20,7 @@ const Banner = ({ data }) => {
             <div className='h-full flex items-center'>
               <img src={data.image} alt="" 
               className='scale-125 w-[250px] md:w-[340px] mx-auto
-               drop-shadow-2xl object-cover'/>
+               drop-shadow-2xl object-cover '/>
             </div>
             {/* Third col */}
             <div className='flex flex-col justify-center gap-4 p-6 
@@ -30,7 +30,7 @@ const Banner = ({ data }) => {
               <p className='text-sm racking-wide leading-5'>{data.title4}</p>
               <div>
                 <button style={{color:data.bgColor}}
-               className='bg-red-900 py-2 px-4
+               className='bg-yellow-900 py-2 px-4
                 rounded-full'>Shop Now</button>
               </div>
             </div>
